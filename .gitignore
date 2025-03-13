@@ -1,0 +1,43 @@
+# Default ignored files
+/shelf/
+.workspace.xml
+
+# Python
+*.pyc
+__pycache__/
+
+# Virtual Environment
+venv/
+env/
+
+# Environment Variables
+*.env
+.env.development
+.env.production
+
+# Django
+db.sqlite3
+media/
+static/
+staticfiles/
+
+# IDE/Editor Configurations
+.vscode/
+.idea/
+*.swp
+
+# Logs
+*.log
+
+# Other
+*.bak
+.DS_Store
+project-structure.txt  
+
+# Byte-compiled / optimized / DLL files
+*.pyo
+*.pyd
+
+# Migrations (except __init__.py)
+*/migrations/*
+!*/migrations/__init__.py

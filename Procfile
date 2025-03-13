@@ -1,0 +1,1 @@
+web: gunicorn moviegalaxy.wsgi:application
